@@ -1,0 +1,3 @@
+[submodule "extensions/zed-netcoredbg"]
+	path = extensions/zed-netcoredbg
+	url = git@github.com:qwadrox/zed-netcoredbg.git
