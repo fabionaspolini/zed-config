@@ -24,10 +24,12 @@
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 400.0,
   "terminal": {
-    "font_family": "Noto Emoji",
+    "font_family": ".ZedMono",
+    "font_fallbacks": ["Noto Color Emoji"]
   },
   "autosave": "off",
   "buffer_font_family": "0xProto Nerd Font",
+  "buffer_font_fallbacks": ["Noto Color Emoji"],
   "git_panel": {
     "group_by": "staging",
     "tree_view": true,
