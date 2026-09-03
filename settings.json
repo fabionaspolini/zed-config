@@ -24,7 +24,7 @@
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 400.0,
   "terminal": {
-    "font_family": ".ZedMono",
+    "font_family": "Noto Emoji",
   },
   "autosave": "off",
   "buffer_font_family": "0xProto Nerd Font",
