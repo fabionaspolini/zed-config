@@ -7,7 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "VSCode Great Icons Theme",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
   "agent": {
     "default_model": {
       "provider": "google",
@@ -29,7 +33,7 @@
     "font_fallbacks": ["Noto Color Emoji"]
   },
   "autosave": "off",
-  "buffer_font_family": "0xProto Nerd Font",
+  "buffer_font_family": "0xProto Nerd Font Mono",
   "buffer_font_fallbacks": ["Noto Color Emoji"],
   "git_panel": {
     "group_by": "staging",
