@@ -7,12 +7,19 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
   "icon_theme": {
-    "mode": "light",
+    "mode": "system",
     "light": "VSCode Great Icons Theme",
-    "dark": "Zed (Default)"
+    "dark": "VSCode Great Icons Theme"
   },
   "agent": {
+    "dock": "right",
     "default_model": {
       "provider": "google",
       "model": "gemini-3.1-pro-preview",
@@ -26,30 +33,37 @@
     "dock": "bottom"
   },
   "diff_view_style": "split",
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_fallbacks": ["0xProto Nerd Font", "Noto Color Emoji"],
   "buffer_line_height": "comfortable",
-  "buffer_font_weight": 400.0,
+  "buffer_font_size": 15.0,
+  "buffer_font_weight": 500.0,
   "terminal": {
-    "font_family": ".ZedMono",
-    "font_fallbacks": ["Noto Color Emoji"]
+    "font_family": "JetBrains Mono",
+    "font_fallbacks": ["0xProto Nerd Font", "Noto Color Emoji"],
+    "line_height": "standard",
+    "font_weight": 500,
+    // "font_size": 14
   },
+  "ui_font_family": "Noto Sans",
+  "ui_font_fallbacks": ["0xProto Nerd Font Mono", ".ZedSans"],
+  "ui_font_size": 15,
+  "ui_font_weight": 500,
   "autosave": "off",
-  "buffer_font_family": "0xProto Nerd Font Mono",
-  "buffer_font_fallbacks": ["Noto Color Emoji"],
   "git_panel": {
+    "dock": "left",
     "group_by": "staging",
     "tree_view": true,
   },
   "project_panel": {
-    "dock": "right",
+    "dock": "left",
   },
   "cli_default_open_behavior": "existing_window",
   "base_keymap": "VSCode",
-  "ui_font_size": 16,
-  "buffer_font_size": 14.0,
   "theme": {
-    "mode": "light",
+    "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Ayu Mirage",
+    "dark": "Catppuccin Macchiato",
   },
   "dap": {
     "netcoredbg": {
