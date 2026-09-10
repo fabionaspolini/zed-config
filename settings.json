@@ -19,6 +19,7 @@
     "dark": "VSCode Great Icons Theme"
   },
   "agent": {
+    "sidebar_side": "right",
     "dock": "right",
     "default_model": {
       "provider": "google",
