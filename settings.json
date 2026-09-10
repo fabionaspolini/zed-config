@@ -48,7 +48,7 @@
   "buffer_font_size": 14.0,
   "theme": {
     "mode": "light",
-    "light": "One Light",
+    "light": "Catppuccin Latte",
     "dark": "Ayu Mirage",
   },
   "dap": {
